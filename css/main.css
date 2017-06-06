@@ -1,0 +1,65 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+/* Show it is fixed to the top */
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+#main{
+  margin:0;
+  max-height: 1000px;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 1000px;}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  padding: 20px;
+  background-color: #f1f1f1;
+  height: 100%;
+}
+.well{
+  vertical-align: middle;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+.footer {
+  position:absolute;
+  width: 100%;
+  bottom: 0;
+  background-color: #555;
+  color: white;
+  padding: 15px 0 0;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+
+
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height:auto;}
+}
+@media screen and (max-width: 900px) {
+  .twitch{
+    height:400px;
+  }
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height:auto;}
+}
