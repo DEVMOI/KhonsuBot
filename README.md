@@ -1,2 +1,2 @@
-# Team Khonsu
-Team Khonsu's Community site and Code for the TwitchBot: Khonsubot
+# Khonsubot
+Team Khonsu's Community TwitchBot
