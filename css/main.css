@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 html {
   position: relative;
   min-height: 100%;
@@ -64,7 +64,7 @@ body {
   }
   .row.content {height:auto;}
 }
-=======
+
 body{
   margin-top: 50px;
 }
@@ -174,4 +174,3 @@ a {
 .shade {
   background:rgba(0,0,0,0.2);
 }
->>>>>>> 45e113acc1b602c2a22916cade65f3aef0098ac9
