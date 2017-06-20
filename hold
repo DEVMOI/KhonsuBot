@@ -1,0 +1,129 @@
+
+
+
+// /////////////////////////////////////////////////
+// //////////////////// FUNCTIONS!!! ///////////////
+// /////////////////////////////////////////////////
+// chat.onConnect();
+// connectionMessage(users); //Summons Connection MESSAGE
+// //viewerMessage(users); Summons Viewer Welcome Message
+// getCommands(users); //Summons Command List
+//
+// /////////////////////////////////////////////////
+// //////////////////// END!!! /////////////////////
+// /////////////////////////////////////////////////
+// ///////////////////////////
+// //WELCOME VIEWER MESSAGE!//
+// ///////////////////////////
+// // function viewerMessage(viewersJoin){
+// //   client.on('join',function(channel,username,self){
+// //
+// //     while (var i=0; channel!==viewersJoin[i], i++;){
+// //
+// //     }
+// //       client.action(viewersJoin[i],'Welcome to the Show! Type !codex for commands, and enjoy!')
+// //   })
+// // };
+// ///////
+// //END//
+// ///////
+//
+// ////////////////
+// //BOT COMMANDS//
+// ////////////////
+//
+// ////////////////
+// //COMMAND LIST//
+// ////////////////
+// function getCommands(usersCommand){
+//   client.on("chat",function(channel,user,message,self){
+//     var i=0;
+//     while (channel!==usersCommand[i]){
+//       i++;
+//     }
+//
+//       if (message==='!codex') {
+//         client.action(usersCommand[i],' Codex:'+' '+' !twitter,' + ' ' +' !tumblr,' +' '+' !elo TheHermitKhan,'+' '+' !profile TheHermitKhan,'+' '+' !match TheHermitKhan')
+//       }
+//   })
+// };
+// ///////
+// //END//
+// ///////
+//
+// /////////////////////
+// //Khonsubot Summons//
+// /////////////////////
+// client.on("chat",function(channel,user,message,self){
+//   var i=0;
+//   while (channel!==users[i]){
+//     i++;
+//   }
+//     if (message==='khonsu'||message==='khonsubot') {
+//       client.action(users[i], user['display-name'] +', ' + " do you need help?" + '(!yes or !no)')
+//     }
+//     if (message==='!yes'||message==='!Yes') {
+//       client.action(users[i], user['display-name'] + ' Type !codex for the Command List.')
+//     }
+//     if (message==='!no'||message==='!No') {
+//       client.action(users[i], user['display-name'] + " Don't waste the time of the Gods.")
+//     }
+//   });
+//   ///////
+//   //END//
+//   ///////
+//
+// ////////////////
+// //Social Media//
+// ////////////////
+// client.on("chat",function(channel,user,message,self){
+//     var i=0;
+//     while (channel!==users[i]){
+//       i++;
+//     }
+//     if (channel===users[i]){
+//
+//
+//         ///////////
+//         //Twitter//
+//         ///////////
+//         if(message==='!twitter') {
+//           client.action(users[i],'Twitter:'+" "+"www.twitter.com/vvarrenstudios")
+//         }
+//         //////////
+//         //Tumblr//
+//         //////////
+//         if(message==='!tumblr') {
+//           client.action(users[i],'Tumblr:'+" "+"vvarrenstudios.tumblr.com")
+//         }
+//     ///////
+//     //END//
+//     ///////
+//
+//     }
+//     if (channel===users[i]){
+//     ////////////////
+//     //Social Media//
+//     ////////////////
+//
+//         ///////////
+//         //Twitter//
+//         ///////////
+//         if(message==='!twitter') {
+//           client.action(users[i],'Twitter:'+" "+"www.twitter.com/sleezysaleem")
+//         }
+//         /////////
+//         //Tumblr//
+//         //////////
+//         if(message==='!tumblr') {
+//           client.action(users[i],'Tumblr:'+" "+"vvarrenstudios.tumblr.com")
+//         }
+//     ///////
+//     //END//
+//     ///////
+//   }
+//
+// });
+// ///////
+// //END//
+// ///////
